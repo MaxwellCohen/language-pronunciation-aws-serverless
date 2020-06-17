@@ -16,8 +16,8 @@ async function connect() {
   });
 }
   
-function disconnect() {
-  mongoose.disconnect();
+async function disconnect() {
+  return mongoose.disconnect();
 }
 
 /*

@@ -70,3 +70,11 @@ functions:
           path: languageSuportData
           method: get
           cors: true
+  search:
+    handler: search/index.search
+    # The `events` block defines how to trigger the handler.helloWorld code
+    events:
+      - http:
+          path: search
+          method: get
+          cors: true

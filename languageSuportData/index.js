@@ -3,7 +3,7 @@ const { ttsVoices } = require('../common/TTS');
 const {getLanguageSupport} = require('../common/translate');
 const {makeResposeObject} = require('../common/makeResposeObject');
 
-module.exports.languageSuportData = async function (context) {
+module.exports.languageSuportData = async function () {
   let response;
   const cleanUPName = (Name, Gender, locale) => {
     let name = Name.match(/\((.*), (.*)\)/);

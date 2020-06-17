@@ -61,7 +61,7 @@ async function translate({
 
   try {
     const seachOBJ = {text,from,to};
-    connect();
+    await connect();
     const usedb =  await doesItemExist(seachOBJ);
     if (usedb) {
       const casheItem = await findItem(seachOBJ); 
@@ -110,8 +110,8 @@ async function translate({
     textTransliteration: null,
     translation: null,
     translationTransliteration: null,
-  })).finally(() => {
-    disconnect();
+  })).finally(async () => {
+    await disconnect();
   });
 }
 
@@ -140,16 +140,3 @@ exports.getTranslateEnvVars = getTranslateEnvVars;
 exports.translate = translate;
 exports.getLanguageSupport = getLanguageSupport;
 exports.translaterate = translaterate;
-
-
-
-async function test() {
-  const obj = {
-    text: 'goodbye',
-    from: 'en',
-    to:'zh-Hans'
-  };
-
-  console.log(await translate(obj));
-}
-test();

@@ -1,12 +1,16 @@
 const {
-  ttsVoices
-} = require('../common/TTS');
+  searchForItems,
+  connect,
+  disconnect
+} = require('../common/db/translationRepo');
 const {makeResposeObject} = require('../common/makeResposeObject');
-// ttsVoices
-module.exports.ttsVoices = async function (context) {
+
+module.exports.search = async function search (context) {
   let response;
   try {
-    const data = await ttsVoices(context.queryStringParameters);
+    await connect();
+    const data = await searchForItems(context.queryStringParameters);
+    await disconnect();
     response = makeResposeObject(data);
   } catch (e) {
     response = makeResposeObject({}, 400);
