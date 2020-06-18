@@ -95,7 +95,7 @@ async function searchForItems({from, to, text}) {
     item = item.startsWith('text', text);
   }
   
-  item = await item.limit(10).exec();
+  item = await item.limit(10).sort({text: 1}).exec();
   console.log(item);
   
   return item;
