@@ -1,6 +1,6 @@
 const {
-  translate
-} = require('./translate');
+  getLanguageSupportData
+} = require('./languageSuportData');
 
 
 const obj = {
@@ -10,8 +10,8 @@ const obj = {
 };
 
 async function test() {
-  console.log(await translate(obj));
-  console.log(await translate(obj));
+  var res = await getLanguageSupportData(obj);
+  console.log(Object.keys(res));
 }
 
 test();

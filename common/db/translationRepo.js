@@ -48,24 +48,26 @@ async function addItem({
     translationTransliteration
   });
 
-  const newtranslation2 = new translationModel({
-    text: translation,
-    from: to,
-    textTransliteration: translationTransliteration,
-    translation: text,
-    to: from,
-    translationTransliteration: textTransliteration,
-  });
   try {
     await newtranslation.save();
   } catch (e) {
     console.log(e);
   }
-  try {
-    await newtranslation2.save();
-  } catch (e) {
-    console.log(e);
-  }
+
+  // const newtranslation2 = new translationModel({
+  //   text: translation,
+  //   from: to,
+  //   textTransliteration: translationTransliteration,
+  //   translation: text,
+  //   to: from,
+  //   translationTransliteration: textTransliteration,
+  // });
+
+  // try {
+  //   await newtranslation2.save();
+  // } catch (e) {
+  //   console.log(e);
+  // }
   
 }
 
@@ -73,7 +75,6 @@ async function doesItemExist(search) {
   const translationModel = mongoose.model('translation');
   const exists = await translationModel.exists(search);
   console.log('doesItemExist',  exists);
-  
   return exists;
 }
 

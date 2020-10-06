@@ -1,0 +1,460 @@
+[{
+    "name": "Arabic",
+    "nativeName": "العربية",
+    "dir": "rtl",
+    "code": "ar",
+    "voices": [{
+        "name": "Hoda (Female - EG)",
+        "code": "ar-EG-Hoda"
+    }, {
+        "name": "Naayf (Male - SA)",
+        "code": "ar-SA-Naayf"
+    }]
+}, {
+    "name": "Catalan",
+    "nativeName": "Català",
+    "dir": "ltr",
+    "code": "ca",
+    "voices": [{
+        "name": "HerenaRUS (Female - ES)",
+        "code": "ca-ES-HerenaRUS"
+    }]
+}, {
+    "name": "Danish",
+    "nativeName": "Dansk",
+    "dir": "ltr",
+    "code": "da",
+    "voices": [{
+        "name": "HelleRUS (Female - DK)",
+        "code": "da-DK-HelleRUS"
+    }]
+}, {
+    "name": "German",
+    "nativeName": "Deutsch",
+    "dir": "ltr",
+    "code": "de",
+    "voices": [{
+        "name": "Hedda (Female - DE)",
+        "code": "de-DE-Hedda"
+    }, {
+        "name": "HeddaRUS (Female - DE)",
+        "code": "de-DE-HeddaRUS"
+    }, {
+        "name": "KatjaNeural (Female - DE)",
+        "code": "de-DE-KatjaNeural"
+    }, {
+        "name": "Apollo (Male - DE)",
+        "code": "de-DE-Stefan-Apollo"
+    }]
+}, {
+    "name": "English",
+    "nativeName": "English",
+    "dir": "ltr",
+    "code": "en",
+    "voices": [{
+        "name": "Catherine (Female - AU)",
+        "code": "en-AU-Catherine"
+    }, {
+        "name": "HayleyRUS (Female - AU)",
+        "code": "en-AU-HayleyRUS"
+    }, {
+        "name": "NatashaNeural (Female - AU)",
+        "code": "en-AU-NatashaNeural"
+    }, {
+        "name": "ClaraNeural (Female - CA)",
+        "code": "en-CA-ClaraNeural"
+    }, {
+        "name": "HeatherRUS (Female - CA)",
+        "code": "en-CA-HeatherRUS"
+    }, {
+        "name": "Linda (Female - CA)",
+        "code": "en-CA-Linda"
+    }, {
+        "name": "Apollo (Male - GB)",
+        "code": "en-GB-George-Apollo"
+    }, {
+        "name": "HazelRUS (Female - GB)",
+        "code": "en-GB-HazelRUS"
+    }, {
+        "name": "LibbyNeural (Female - GB)",
+        "code": "en-GB-LibbyNeural"
+    }, {
+        "name": "MiaNeural (Female - GB)",
+        "code": "en-GB-MiaNeural"
+    }, {
+        "name": "Apollo (Female - GB)",
+        "code": "en-GB-Susan-Apollo"
+    }, {
+        "name": "Apollo (Female - IN)",
+        "code": "en-IN-Heera-Apollo"
+    }, {
+        "name": "PriyaRUS (Female - IN)",
+        "code": "en-IN-PriyaRUS"
+    }, {
+        "name": "Apollo (Male - IN)",
+        "code": "en-IN-Ravi-Apollo"
+    }, {
+        "name": "Aria24kRUS (Female - US)",
+        "code": "en-US-Aria24kRUS"
+    }, {
+        "name": "AriaNeural (Female - US)",
+        "code": "en-US-AriaNeural"
+    }, {
+        "name": "AriaRUS (Female - US)",
+        "code": "en-US-AriaRUS"
+    }, {
+        "name": "BenjaminRUS (Male - US)",
+        "code": "en-US-BenjaminRUS"
+    }, {
+        "name": "Guy24kRUS (Male - US)",
+        "code": "en-US-Guy24kRUS"
+    }, {
+        "name": "GuyNeural (Male - US)",
+        "code": "en-US-GuyNeural"
+    }, {
+        "name": "ZiraRUS (Female - US)",
+        "code": "en-US-ZiraRUS"
+    }]
+}, {
+    "name": "Spanish",
+    "nativeName": "Español",
+    "dir": "ltr",
+    "code": "es",
+    "voices": [{
+        "name": "ElviraNeural (Female - ES)",
+        "code": "es-ES-ElviraNeural"
+    }, {
+        "name": "HelenaRUS (Female - ES)",
+        "code": "es-ES-HelenaRUS"
+    }, {
+        "name": "Apollo (Female - ES)",
+        "code": "es-ES-Laura-Apollo"
+    }, {
+        "name": "Apollo (Male - ES)",
+        "code": "es-ES-Pablo-Apollo"
+    }, {
+        "name": "DaliaNeural (Female - MX)",
+        "code": "es-MX-DaliaNeural"
+    }, {
+        "name": "HildaRUS (Female - MX)",
+        "code": "es-MX-HildaRUS"
+    }, {
+        "name": "Apollo (Male - MX)",
+        "code": "es-MX-Raul-Apollo"
+    }]
+}, {
+    "name": "Finnish",
+    "nativeName": "Suomi",
+    "dir": "ltr",
+    "code": "fi",
+    "voices": [{
+        "name": "HeidiRUS (Female - FI)",
+        "code": "fi-FI-HeidiRUS"
+    }]
+}, {
+    "name": "French",
+    "nativeName": "Français",
+    "dir": "ltr",
+    "code": "fr",
+    "voices": [{
+        "name": "Caroline (Female - CA)",
+        "code": "fr-CA-Caroline"
+    }, {
+        "name": "HarmonieRUS (Female - CA)",
+        "code": "fr-CA-HarmonieRUS"
+    }, {
+        "name": "SylvieNeural (Female - CA)",
+        "code": "fr-CA-SylvieNeural"
+    }, {
+        "name": "DeniseNeural (Female - FR)",
+        "code": "fr-FR-DeniseNeural"
+    }, {
+        "name": "HortenseRUS (Female - FR)",
+        "code": "fr-FR-HortenseRUS"
+    }, {
+        "name": "Apollo (Female - FR)",
+        "code": "fr-FR-Julie-Apollo"
+    }, {
+        "name": "Apollo (Male - FR)",
+        "code": "fr-FR-Paul-Apollo"
+    }]
+}, {
+    "name": "Hindi",
+    "nativeName": "हिंदी",
+    "dir": "ltr",
+    "code": "hi",
+    "voices": [{
+        "name": "Hemant (Male - IN)",
+        "code": "hi-IN-Hemant"
+    }, {
+        "name": "Kalpana (Female - IN)",
+        "code": "hi-IN-Kalpana"
+    }, {
+        "name": "Apollo (Female - IN)",
+        "code": "hi-IN-Kalpana-Apollo"
+    }]
+}, {
+    "name": "Italian",
+    "nativeName": "Italiano",
+    "dir": "ltr",
+    "code": "it",
+    "voices": [{
+        "name": "Apollo (Male - IT)",
+        "code": "it-IT-Cosimo-Apollo"
+    }, {
+        "name": "ElsaNeural (Female - IT)",
+        "code": "it-IT-ElsaNeural"
+    }, {
+        "name": "LuciaRUS (Female - IT)",
+        "code": "it-IT-LuciaRUS"
+    }]
+}, {
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "dir": "ltr",
+    "code": "ja",
+    "voices": [{
+        "name": "Apollo (Female - JP)",
+        "code": "ja-JP-Ayumi-Apollo"
+    }, {
+        "name": "HarukaRUS (Female - JP)",
+        "code": "ja-JP-HarukaRUS"
+    }, {
+        "name": "Apollo (Male - JP)",
+        "code": "ja-JP-Ichiro-Apollo"
+    }, {
+        "name": "NanamiNeural (Female - JP)",
+        "code": "ja-JP-NanamiNeural"
+    }]
+}, {
+    "name": "Korean",
+    "nativeName": "한국어",
+    "dir": "ltr",
+    "code": "ko",
+    "voices": [{
+        "name": "HeamiRUS (Female - KR)",
+        "code": "ko-KR-HeamiRUS"
+    }, {
+        "name": "SunHiNeural (Female - KR)",
+        "code": "ko-KR-SunHiNeural"
+    }]
+}, {
+    "name": "Norwegian",
+    "nativeName": "Norsk",
+    "dir": "ltr",
+    "code": "nb",
+    "voices": [{
+        "name": "HuldaRUS (Female - NO)",
+        "code": "nb-NO-HuldaRUS"
+    }, {
+        "name": "IselinNeural (Female - NO)",
+        "code": "nb-NO-IselinNeural"
+    }]
+}, {
+    "name": "Dutch",
+    "nativeName": "Nederlands",
+    "dir": "ltr",
+    "code": "nl",
+    "voices": [{
+        "name": "HannaRUS (Female - NL)",
+        "code": "nl-NL-HannaRUS"
+    }]
+}, {
+    "name": "Polish",
+    "nativeName": "Polski",
+    "dir": "ltr",
+    "code": "pl",
+    "voices": [{
+        "name": "PaulinaRUS (Female - PL)",
+        "code": "pl-PL-PaulinaRUS"
+    }]
+}, {
+    "name": "Portuguese (Brazil)",
+    "nativeName": "Português (Brasil)",
+    "dir": "ltr",
+    "code": "pt",
+    "voices": [{
+        "name": "Apollo (Male - BR)",
+        "code": "pt-BR-Daniel-Apollo"
+    }, {
+        "name": "FranciscaNeural (Female - BR)",
+        "code": "pt-BR-FranciscaNeural"
+    }, {
+        "name": "HeloisaRUS (Female - BR)",
+        "code": "pt-BR-HeloisaRUS"
+    }, {
+        "name": "HeliaRUS (Female - PT)",
+        "code": "pt-PT-HeliaRUS"
+    }]
+}, {
+    "name": "Portuguese (Portugal)",
+    "nativeName": "Português (Portugal)",
+    "dir": "ltr",
+    "code": "pt-pt",
+    "voices": [{
+        "name": "Apollo (Male - BR)",
+        "code": "pt-BR-Daniel-Apollo"
+    }, {
+        "name": "FranciscaNeural (Female - BR)",
+        "code": "pt-BR-FranciscaNeural"
+    }, {
+        "name": "HeloisaRUS (Female - BR)",
+        "code": "pt-BR-HeloisaRUS"
+    }, {
+        "name": "HeliaRUS (Female - PT)",
+        "code": "pt-PT-HeliaRUS"
+    }]
+}, {
+    "name": "Russian",
+    "nativeName": "Русский",
+    "dir": "ltr",
+    "code": "ru",
+    "voices": [{
+        "name": "EkaterinaRUS (Female - RU)",
+        "code": "ru-RU-EkaterinaRUS"
+    }, {
+        "name": "Apollo (Female - RU)",
+        "code": "ru-RU-Irina-Apollo"
+    }, {
+        "name": "Apollo (Male - RU)",
+        "code": "ru-RU-Pavel-Apollo"
+    }]
+}, {
+    "name": "Swedish",
+    "nativeName": "Svenska",
+    "dir": "ltr",
+    "code": "sv",
+    "voices": [{
+        "name": "HedvigRUS (Female - SE)",
+        "code": "sv-SE-HedvigRUS"
+    }]
+}, {
+    "name": "Tamil",
+    "nativeName": "தமிழ்",
+    "dir": "ltr",
+    "code": "ta",
+    "voices": [{
+        "name": "Valluvar (Male - IN)",
+        "code": "ta-IN-Valluvar"
+    }]
+}, {
+    "name": "Telugu",
+    "nativeName": "తెలుగు",
+    "dir": "ltr",
+    "code": "te",
+    "voices": [{
+        "name": "Chitra (Female - IN)",
+        "code": "te-IN-Chitra"
+    }]
+}, {
+    "name": "Thai",
+    "nativeName": "ไทย",
+    "dir": "ltr",
+    "code": "th",
+    "voices": [{
+        "name": "Pattara (Male - TH)",
+        "code": "th-TH-Pattara"
+    }]
+}, {
+    "name": "Turkish",
+    "nativeName": "Türkçe",
+    "dir": "ltr",
+    "code": "tr",
+    "voices": [{
+        "name": "EmelNeural (Female - TR)",
+        "code": "tr-TR-EmelNeural"
+    }, {
+        "name": "SedaRUS (Female - TR)",
+        "code": "tr-TR-SedaRUS"
+    }]
+}, {
+    "name": "Chinese Simplified",
+    "nativeName": "简体中文",
+    "dir": "ltr",
+    "code": "zh-Hans",
+    "voices": [{
+        "name": "HuihuiRUS (Female - CN)",
+        "code": "zh-CN-HuihuiRUS"
+    }, {
+        "name": "Apollo (Male - CN)",
+        "code": "zh-CN-Kangkang-Apollo"
+    }, {
+        "name": "XiaoxiaoNeural (Female - CN)",
+        "code": "zh-CN-XiaoxiaoNeural"
+    }, {
+        "name": "XiaoyouNeural (Female - CN)",
+        "code": "zh-CN-XiaoyouNeural"
+    }, {
+        "name": "Apollo (Female - CN)",
+        "code": "zh-CN-Yaoyao-Apollo"
+    }, {
+        "name": "YunyangNeural (Male - CN)",
+        "code": "zh-CN-YunyangNeural"
+    }, {
+        "name": "YunyeNeural (Male - CN)",
+        "code": "zh-CN-YunyeNeural"
+    }, {
+        "name": "Apollo (Male - HK)",
+        "code": "zh-HK-Danny-Apollo"
+    }, {
+        "name": "Apollo (Female - HK)",
+        "code": "zh-HK-Tracy-Apollo"
+    }, {
+        "name": "TracyRUS (Female - HK)",
+        "code": "zh-HK-TracyRUS"
+    }, {
+        "name": "HanHanRUS (Female - TW)",
+        "code": "zh-TW-HanHanRUS"
+    }, {
+        "name": "Apollo (Female - TW)",
+        "code": "zh-TW-Yating-Apollo"
+    }, {
+        "name": "Apollo (Male - TW)",
+        "code": "zh-TW-Zhiwei-Apollo"
+    }]
+}, {
+    "name": "Chinese Traditional",
+    "nativeName": "繁體中文",
+    "dir": "ltr",
+    "code": "zh-Hant",
+    "voices": [{
+        "name": "HuihuiRUS (Female - CN)",
+        "code": "zh-CN-HuihuiRUS"
+    }, {
+        "name": "Apollo (Male - CN)",
+        "code": "zh-CN-Kangkang-Apollo"
+    }, {
+        "name": "XiaoxiaoNeural (Female - CN)",
+        "code": "zh-CN-XiaoxiaoNeural"
+    }, {
+        "name": "XiaoyouNeural (Female - CN)",
+        "code": "zh-CN-XiaoyouNeural"
+    }, {
+        "name": "Apollo (Female - CN)",
+        "code": "zh-CN-Yaoyao-Apollo"
+    }, {
+        "name": "YunyangNeural (Male - CN)",
+        "code": "zh-CN-YunyangNeural"
+    }, {
+        "name": "YunyeNeural (Male - CN)",
+        "code": "zh-CN-YunyeNeural"
+    }, {
+        "name": "Apollo (Male - HK)",
+        "code": "zh-HK-Danny-Apollo"
+    }, {
+        "name": "Apollo (Female - HK)",
+        "code": "zh-HK-Tracy-Apollo"
+    }, {
+        "name": "TracyRUS (Female - HK)",
+        "code": "zh-HK-TracyRUS"
+    }, {
+        "name": "HanHanRUS (Female - TW)",
+        "code": "zh-TW-HanHanRUS"
+    }, {
+        "name": "Apollo (Female - TW)",
+        "code": "zh-TW-Yating-Apollo"
+    }, {
+        "name": "Apollo (Male - TW)",
+        "code": "zh-TW-Zhiwei-Apollo"
+    }]
+}]
