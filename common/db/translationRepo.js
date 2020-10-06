@@ -38,6 +38,11 @@ async function addItem({
   to = '',
   translationTransliteration = ''
 }) {
+
+  if (text === translation) {
+    return;
+  }
+
   const translationModel = mongoose.model('translation');
   const newtranslation = new translationModel({
     text,
